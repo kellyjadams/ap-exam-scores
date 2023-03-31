@@ -22,7 +22,7 @@ Below are a few questions asked to answer for this dataset.
 - [Google Looker Studio Dashboard](https://lookerstudio.google.com/reporting/1e843dde-4fd3-4040-83e6-598f37685466)
 
 ## 📁 File
-- query.sql is the SQL code I used to analyze the data
+- [query.sql](https://github.com/kellyjadams/ap-exam-scores/blob/main/query.sql) is the SQL code I used to analyze the data
 
 ## 📊 Data
 Below I go into how the data is laid out. 
