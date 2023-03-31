@@ -7,6 +7,26 @@
 #### AP Scores Table
 
 Broken down into individual tables. These are the following:
+1. AP Lang
+2. AP World
+3. GP Gov
+4. AP US History
+5. AP Bio
+6. AP Chem
+7. AP Literature
+8. AP Calculus
+9. Last Years Data - For Comps
+10. This Years Goals
+
+Below is an example of the AP Language table. 
+
+| Student Identifier | Grade | Cohort     | AP Lang Predicted AP Score           | AP Lang Predicted AP Level | Did Student Test? | AP Lang Actual AP Score | AP Lang - Actual AP Level |
+|--------------------|-------|------------|--------------------------------------|----------------------------|-------------------|-------------------------|---------------------------|
+| Student 1          | 11    | Georgetown | Not Projected AP3+ (Off Track = AP1) | Below AP3                  | Yes               | 2                       | Below AP3                 |
+| Student 2          | 11    | Notre Dame | Not Projected AP3+ (Off Track = AP1) | Below AP3                  | Yes               | 2                       | Below AP3                 |
+| Student 3          | 11    | Georgetown | On Track to AP3                      | AP3 or Above               | No                | No Score                | No Score                  |
+| Student 4          | 11    | Notre Dame | Not Projected AP3+ (Off Track = AP1) | Below AP3                  | Yes               | 3                       | AP3 or Above              |
+| Student 5          | 11    | Notre Dame | On Track to AP4+                     | AP3 or Above               | No                | No Score                | No Score                  |
 
 Example of a table is: 
 
