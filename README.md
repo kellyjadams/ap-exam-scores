@@ -1,5 +1,29 @@
 # 🏫 AP Exam Score
 
+## 🎯 Goal
+At the school students in the 10th, 11th and 12th grade enroll in AP courses. Students take various assessments throughout the year that are aligned to the courses’  AP exam. The scores on assessments lead to a “Predicted Score.” Predicted Scores are then used to support students in deciding whether or not they should take the official AP exam at the end of the school year. 
+
+## ❓ Questions
+Below are a few questions asked to answer for this dataset. 
+- What number of students are passing against the number tested? What are the highest/lowest pass rates? 
+- How did the pass rates this year compare to pass rates from last year? 
+- Compare this year’s participation goals against this year’s actual participation rates. 
+- How did the school perform on this year’s index goals against this year’s actual index rates? 
+
+## Additonal Details
+- A passing AP score is a score of AP3 or higher
+- The AP Index = (the participation rate) * (pass rate)
+- Participation Rate = (number of students who tested in a given AP course)/(total number of students in the grade level)
+- Pass rate = (number of students who passed the test in a given AP content)/(total number of students who tested) 
+
+**Note:** The above information is all dummy data and does not actually represent real students. 
+
+## 🔗 Links
+- [Google Looker Studio Dashboard](https://lookerstudio.google.com/reporting/1e843dde-4fd3-4040-83e6-598f37685466)
+
+## 📁 File
+- query.sql is the SQL code I used to analyze the data
+
 ## 📊 Data
 
 ### The Tables 
@@ -65,29 +89,3 @@ Example of a table is:
 | AP Gov           | 0.39                    | 0.24                    | 0.62                                          |
 | AP US History    | 0.63                    | 0.18                    | 0.29                                          |
 | AP World History | 0.69                    | 0.2                     | 0.29                                          |
-
-## 🎯 Goal
-At the school students in the 10th, 11th and 12th grade enroll in AP courses. Students take various assessments throughout the year that are aligned to the courses’  AP exam. The scores on assessments lead to a “Predicted Score.” Predicted Scores are then used to support students in deciding whether or not they should take the official AP exam at the end of the school year. 
-
-## ❓ Questions
-Below are a few questions asked to answer for this dataset. 
-- What number of students are passing against the number tested? What are the highest/lowest pass rates? 
-- How did the pass rates this year compare to pass rates from last year? 
-- Compare this year’s participation goals against this year’s actual participation rates. 
-- How did the school perform on this year’s index goals against this year’s actual index rates? 
-
-## Additonal Details
-- A passing AP score is a score of AP3 or higher
-- The AP Index = (the participation rate) * (pass rate)
-- Participation Rate = (number of students who tested in a given AP course)/(total number of students in the grade level)
-- Pass rate = (number of students who passed the test in a given AP content)/(total number of students who tested) 
-
-**Note:** The above information is all dummy data and does not actually represent real students. 
-
-## 🔗 Links
-- Google Looker Dashboard
-
-
-## 📁 File
-- query.sql is the SQL code I used to analyze the data
-
