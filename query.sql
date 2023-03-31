@@ -5,7 +5,6 @@ SELECT COUNT(Did_Student_Test) AS number_participated
 FROM student_ap_assessments.ap_lang
 WHERE Did_Student_Test = 'Yes'
 
-
 | number_participated |
 | ------------------- |
 |          21         |
@@ -19,7 +18,6 @@ WHERE AP_Lang_Actual_AP_Level = 'AP3 or Above'
 | ------------- |
 |       10      |
 
-
 --Calculate Pass Rates
 
 --Option 1: Use number of students who tesetd in previous SQL Query to calculate pass rate 
@@ -31,7 +29,6 @@ WHERE AP_Lang_Actual_AP_Level = 'AP3 or Above'
 |  pass_rate |
 | ---------- |
 | 0.47619047 |
-
 
 -- Option 2: Use one SQL Query to Calculate Pass rate 
 SELECT 
@@ -93,7 +90,6 @@ FROM student_ap_assessments.ap_world
 |  total_students_tenth_grade |
 | --------------------------- |
 |              100            |
-
 
 -- Use that total number (100) to calcualte the participation rate for AP World
 SELECT COUNT(Did_Student_Test) / 100 AS  particpation_rate
@@ -184,7 +180,6 @@ VALUES
 SELECT Courses, This_Years_AP_Index_Goals, This_Years_AP_Index
 FROM student_ap_assessments.this_yr_goals
 ORDER BY Courses
-
 
 | Courses          | This_Years_AP_Index_Goals | This_Years_AP_Index |
 |------------------|---------------------------|:-------------------:|
