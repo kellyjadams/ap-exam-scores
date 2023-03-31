@@ -1,6 +1,6 @@
-# AP Exam Score
+# 🏫 AP Exam Score
 
-## Data
+## 📊 Data
 
 ### The Tables 
 
@@ -42,22 +42,52 @@ Example of a table is:
 
 #### Last Years Scores Table
 
+| Courses          | Last Year Pass Rate     | Last Year AP Index      | Predicted Participation Rates from Prior Year |
+|------------------|-------------------------|-------------------------|-----------------------------------------------|
+| AP Bio           | NA - Did Not Administer | NA - Did Not Administer | NA - Did Not Administer                       |
+| AP Calc          | 0.5                     | 0.14                    | 0.28                                          |
+| AP Chem          | 0.05                    | 0.01                    | 0.20                                          |
+| AP Lang          | 0.48                    | 0.22                    | 0.46                                          |
+| AP Lit           | 0.73                    | 0.22                    | 0.30                                          |
+| AP Gov           | 0.39                    | 0.24                    | 0.62                                          |
+| AP US History    | 0.63                    | 0.18                    | 0.29                                          |
+| AP World History | 0.69                    | 0.2                     | 0.29                                          |
+
 #### This Years Scores Table
 
-## Goal
-At EMKS, students in the 10th, 11th and 12th grade enroll in AP courses. Students take internally-developed interim assessments throughout the year that are aligned to the courses’ respective official AP exam. The scores on interim assessments lead to a “Predicted Score.” Predicted Scores are then used to support students in deciding whether or not they should take the official AP exam at the end of the school year. 
+| Courses          | Last Year Pass Rate     | Last Year AP Index      | Predicted Participation Rates from Prior Year |
+|------------------|-------------------------|-------------------------|-----------------------------------------------|
+| AP Bio           | NA - Did Not Administer | NA - Did Not Administer | NA - Did Not Administer                       |
+| AP Calc          | 0.5                     | 0.14                    | 0.28                                          |
+| AP Chem          | 0.05                    | 0.01                    | 0.20                                          |
+| AP Lang          | 0.48                    | 0.22                    | 0.46                                          |
+| AP Lit           | 0.73                    | 0.22                    | 0.30                                          |
+| AP Gov           | 0.39                    | 0.24                    | 0.62                                          |
+| AP US History    | 0.63                    | 0.18                    | 0.29                                          |
+| AP World History | 0.69                    | 0.2                     | 0.29                                          |
 
-## Questiona
-- What number of students are passing against the number tested? On what exams are we seeing our highest/lowest pass rates? 
-- How did our pass rates this year compare to our pass rates last year, and what headlines should we take away from that data? 
-- How did we perform on this year’s participation goals against this year’s actual participation rates? 
-- How did we perform on this year’s index goals against this year’s actual index rates? 
-- What correlating trends would you extract for investigation further or prioritize based on your aggregation of the data? 
+## 🎯 Goal
+At the school students in the 10th, 11th and 12th grade enroll in AP courses. Students take various assessments throughout the year that are aligned to the courses’  AP exam. The scores on assessments lead to a “Predicted Score.” Predicted Scores are then used to support students in deciding whether or not they should take the official AP exam at the end of the school year. 
+
+## ❓ Questions
+Below are a few questions asked to answer for this dataset. 
+- What number of students are passing against the number tested? What are the highest/lowest pass rates? 
+- How did the pass rates this year compare to pass rates from last year? 
+- Compare this year’s participation goals against this year’s actual participation rates. 
+- How did the school perform on this year’s index goals against this year’s actual index rates? 
 
 ## Additonal Details
-
 - A passing AP score is a score of AP3 or higher
-- The AP Index is cauclated as the participation rate*pass rate
-- Participation Rate = number of students who tested in a given AP content/total number of students in the grade level
-- Pass rate = number of students who passed the test in a given AP content/total number of students who tested 
+- The AP Index = (the participation rate) * (pass rate)
+- Participation Rate = (number of students who tested in a given AP course)/(total number of students in the grade level)
+- Pass rate = (number of students who passed the test in a given AP content)/(total number of students who tested) 
+
+**Note:** The above information is all dummy data and does not actually represent real students. 
+
+## 🔗 Links
+- Google Looker Dashboard
+
+
+## 📁 File
+- query.sql is the SQL code I used to analyze the data
 
