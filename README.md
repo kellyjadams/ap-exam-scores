@@ -12,9 +12,9 @@ Below are a few questions asked to answer for this dataset.
 
 ## Additonal Details
 - A passing AP score is a score of AP3 or higher
-- The AP Index = (the participation rate) * (pass rate)
-- Participation Rate = (number of students who tested in a given AP course)/(total number of students in the grade level)
-- Pass rate = (number of students who passed the test in a given AP content)/(total number of students who tested) 
+- **The AP Index** = (the participation rate) * (pass rate)
+- **Participation Rate** = (number of students who tested in a given AP course)/(total number of students in the grade level)
+- **Pass rate** = (number of students who passed the test in a given AP content)/(total number of students who tested) 
 
 **Note:** The above information is all dummy data and does not actually represent real students. 
 
@@ -52,14 +52,14 @@ Below is an example of the AP Language table. All of the courses have the same f
 | Student 5          | 11    | Notre Dame | On Track to AP4+                     | AP3 or Above               | No                | No Score                | No Score                  |
 
 Here is a data dictionary of the values:
-- Student Identifier: The student ID
-- Grade: The grade level of the student, for this dataset the grades are 10-12.
-- Cohort: Which college the student would like to go to
-- AP (Subject) Predicted Score: The predicted score based off of previous AP assessments. An AP score can be between 1-5.
-- AP (Subject) Predicted AP Level: The predicted level based off of previous AP assessments. A student passes if they get a score of 3 or above, a fail if they get a 2 or below. 
-- Did Student Test?: Yes or No
-- AP (Subject) Actual AP Score: The actual score the student recieved if they took the AP exam, the score can be between 1-5. If they did not then it's a "No Score".
-- AP (Subject) - Actual AP Level: The actual level of the student based off of the score they recieved during the AP Exam. If a student gets a score of 3 or above, it reads "AP3 or Above", if it's a score of 2 or below then it's "Below AP3", and if a student did not test then it is "No Score". 
+- **Student Identifier:** The student ID
+- **Grade:** The grade level of the student, for this dataset the grades are 10-12.
+- **Cohort:** Which college the student would like to go to
+- **AP (Subject) Predicted Score:** The predicted score based off of previous AP assessments. An AP score can be between 1-5.
+- **AP (Subject) Predicted AP Level:** The predicted level based off of previous AP assessments. A student passes if they get a score of 3 or above, a fail if they get a 2 or below. 
+- **Did Student Test?:** Yes or No
+- **AP (Subject) Actual AP Score:** The actual score the student recieved if they took the AP exam, the score can be between 1-5. If they did not then it's a "No Score".
+- **AP (Subject) - Actual AP Level:** The actual level of the student based off of the score they recieved during the AP Exam. If a student gets a score of 3 or above, it reads "AP3 or Above", if it's a score of 2 or below then it's "Below AP3", and if a student did not test then it is "No Score". 
 
 Example of a table is: 
 
