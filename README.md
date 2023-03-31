@@ -25,12 +25,10 @@ Below are a few questions asked to answer for this dataset.
 - query.sql is the SQL code I used to analyze the data
 
 ## 📊 Data
+Below I go into how the data is laid out. 
 
 ### The Tables 
-
-#### AP Scores Table
-
-Broken down into individual tables. These are the following:
+There are a total of 10 tables:
 1. AP Lang
 2. AP World
 3. GP Gov
@@ -42,7 +40,8 @@ Broken down into individual tables. These are the following:
 9. Last Years Data - For Comps
 10. This Years Goals
 
-Below is an example of the AP Language table. 
+#### AP Scores Table
+Below is an example of the AP Language table. All of the courses have the same format except the subject name is different. 
 
 | Student Identifier | Grade | Cohort     | AP Lang Predicted AP Score           | AP Lang Predicted AP Level | Did Student Test? | AP Lang Actual AP Score | AP Lang - Actual AP Level |
 |--------------------|-------|------------|--------------------------------------|----------------------------|-------------------|-------------------------|---------------------------|
