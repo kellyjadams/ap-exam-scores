@@ -18,11 +18,14 @@ Below are a few questions asked to answer for this dataset.
 
 **Note:** The above information is all dummy data and does not actually represent real students. 
 
-## 🔗 Links
-- [Google Looker Studio Dashboard](https://lookerstudio.google.com/reporting/1e843dde-4fd3-4040-83e6-598f37685466)
+## Report
+View the interactive report using Google Looker Studio [here](https://lookerstudio.google.com/reporting/1e843dde-4fd3-4040-83e6-598f37685466).
 
-## 📁 File
-- [query.sql](https://github.com/kellyjadams/ap-exam-scores/blob/main/query.sql) is the SQL code I used to analyze the data
+![Dashboard Image](AP_Exam_Performance_Dashboard.jpg)
+
+## 📁 Files
+- [query.sql](https://github.com/kellyjadams/ap-exam-scores/blob/main/query.sql) is the SQL code I used to analyze the data.
+- [AP_Exam_Performance_Dashboard.jpg](https://github.com/kellyjadams/ap-exam-scores/blob/main/AP_Exam_Performance_Dashboard.jpg) is an image of the final dashboard I created. 
 
 ## 📊 Data
 Below I go into how the data is laid out. 
